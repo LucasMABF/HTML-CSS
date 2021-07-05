@@ -6,17 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
         body{
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
             /*
             Medidas apsolutas
-            cm, mm, in(inch/polegada), px(pixel), pt(ponto), pc(paica)
+            cm, mtm, in(inch/polegada), px(pixel), pt(ponto), pc(paica)
 
             Medidas relativas
             em(tamanho do M maiúsculo), ex(tamanho X maiúsculo), rem(tamanho do M maiúsculo do body(root) o mais genérico), Vw(tamanho largura da tela), Vh(tamanho altura tela),  %
             16px geralmente = 1em
             */
             font-size: 1em;
+        }
+
+        h1{
+            /*
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder; lighter normal bold bolder OR 100 - 900
+            font-size: 3em;
+            font-style: italic; normal italic
+            text-decoration: underline; sublinhado
+            */
+            /*Weight != width != height*/ 
+
+            /*shorthand font
+            - font-style
+            - font-weight
+            - font-size
+            - font-family
+            */
+            font: italic 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
         }
     </style>
 </head>
