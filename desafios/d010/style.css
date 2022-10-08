@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(src/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font: normal 16px Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+}
+
+header{
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    background-image: linear-gradient(0deg, darkgreen, rgb(76, 240, 76));
+    color: white;
+}
+
+nav{
+    text-align: left;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin: 5px
+}
+
+header > h2{
+    font-size: 15px;
+    margin: 20px;
+    width: 600px;
+    margin: auto;
+    color: white;
+    background-color: transparent;
+    background-image: none;
+}
+
+header > h1{
+    margin: 10px;
+    color: white;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 900px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 0px  0px 20px 20px;
+}
+
+h1, h2{
+    color: green;
+    font-family: idroid, Arial, Helvetica, sans-serif;
+}
+
+h2{
+    background-image: linear-gradient(90deg, lightgreen, white);
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+section{
+    background-color: darkgreen;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+div{
+    background-color: lightgreen;
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+
+div > h1{
+    font-size: 16px;
+    color: white;
+    background-color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+}
+
+footer{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-indent: 40px;
+}
